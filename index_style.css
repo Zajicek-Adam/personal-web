@@ -50,8 +50,8 @@ main{
     width: 100%;
     height: 100%;
     background-image: url('/img/curve.svg');
-    background-position: right bottom;
     background-repeat: no-repeat;
+    background-position: right bottom;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,8 +78,8 @@ h2{
 }
 article#bg{
     background-image: url('/img/curve2.svg');
-    background-position: right bottom;
     background-repeat: no-repeat;
+    background-position: right top;
 }
 .container, .card-container, .card{
     display: flex;
@@ -91,9 +91,11 @@ article#bg{
 .container h1{
    position: relative;
    right: 400px;
+   margin-left: 200px;
 }
 .card-container{
     flex-direction: row;
+    height: 350px;
     gap: 3em;
 }
 .card {
@@ -103,22 +105,31 @@ article#bg{
     border-radius: 25px;
     gap: 3em;
     transition: all 0.5s ease;
-
+    overflow: hidden;
 }
 .card:hover{
     height: 350px;
-    gap: 2em;
+    padding-bottom: 1em;
 }
 .card:hover > p{
-    display: block;
+    opacity: 1;
     transform: translateY(0px);
+}
+.card:hover > h2{
+    margin-top: 0em;
 }
 .card img{
     width: 48px;
+    margin-top: 4em;
 }
 .card p{
     max-width: 200px;
     height: 100px;
-    display: none;
-    transform: translateY(-100px);
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 0.5s ease;
+}
+.card h2{
+    transition: all 0.5s ease;
+    margin-top: -7em;
 }
