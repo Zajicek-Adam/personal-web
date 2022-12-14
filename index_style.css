@@ -2,6 +2,7 @@
     --primary-color: #5032E6;
     --highlight-color: #8C7AEA;
     --background-color: #332B44;
+    --dark-background-color: #3E27B3;
 }
 html, body{
     font-family: 'Poppins', sans-serif;
@@ -27,6 +28,9 @@ a{
     text-decoration: none;
     font-size: 1.35em;
 }
+article, .card-container, .card{
+    box-sizing: border-box;
+}
 .button{
     background-color: var(--primary-color);
     padding: 0.75em 0;
@@ -41,10 +45,13 @@ a{
 .button.box-shadow:hover{
     box-shadow: 9px 9px 2px 2px black;
 }
-main, article{
+main, article, footer{
     width: 100%;
     height: 100%;
     background-color: var(--background-color);
+}
+footer{
+    background-color: var(--dark-background-color);
 }
 main{
     width: 100%;
@@ -133,3 +140,48 @@ article#bg{
     transition: all 0.5s ease;
     margin-top: -7em;
 }
+a.nav::after{
+    content: '';
+    position: relative;
+    top: 5px;
+    display: block;
+    width: 100%;
+    height: 1.2px;
+    background-color: #8C7AEA;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 300ms ease;
+}
+a.nav:hover:after{
+    transform: scaleX(1);
+}
+.torigin-right::after{
+    transform-origin: right!important;
+}
+/*.curve{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 220px;
+}
+.curve::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: var(--highlight-color);
+    transform: translate(85%, 60%);
+}
+.curve::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: var(--background-color);
+    transform: translate(-4%, 40%);
+    z-index: -1;
+}*/
