@@ -51,7 +51,11 @@ main, article, footer{
     background-color: var(--background-color);
 }
 footer{
-    background-color: var(--dark-background-color);
+    background-image: url(img/personal.svg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+    /*background-color: var(--dark-background-color);*/
 }
 main{
     width: 100%;

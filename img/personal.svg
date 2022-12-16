@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2560 1440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4.49914,-6959.02)">
+        <g id="landing-pg-2-HOVER" serif:id="landing pg 2 HOVER" transform="matrix(1,0,0,1,4.49914,6959.02)">
+            <rect x="0" y="0" width="2560" height="1440" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="2560" height="1440"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,0,0,1,-4.49914,-6829.14)">
+                    <path d="M4.499,7133.98C4.499,7133.98 786.326,7415.83 1386.97,7170.1C1794.62,7003.32 2525.55,7281.96 2752.25,7080.46C2912.84,6937.71 2595.69,8628.94 2595.69,8628.94L-285.21,8530.55L-139.591,7109.78M4.499,7133.98L-139.591,7109.78" style="fill:rgb(62,39,179);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
